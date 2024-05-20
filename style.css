@@ -39,9 +39,9 @@
     font-size: 350%;
 }
 .More-Info-Button{
-    position:relative;
+    position:absolute;
     left: 15%;
-    bottom: 30%;
+    bottom: 10%;
     color:white;
     width: 70%;
     height: 20%;
