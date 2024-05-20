@@ -33,7 +33,15 @@
 .Title{
     position:absolute;
     color:white;
-    top: 20%;
+    top: 15%;
+    width: 100%;
+    height: 20%;
+    font-size: 350%;
+}
+.Titlep1{
+    position:absolute;
+    color:white;
+    top: 10%;
     width: 100%;
     height: 20%;
     font-size: 350%;
@@ -48,6 +56,7 @@
     border-radius: 20px;
     font-size: 200%;
     background-color: #555;
+    border: 0px;
 }
 .imageContainerContainer{
     display: flex;
