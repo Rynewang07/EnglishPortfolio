@@ -61,3 +61,24 @@ window.addEventListener("click",
         }
     }
 );
+document.getElementById("moreInfo4").addEventListener("click",
+    function () {
+        myPopup4.classList.add("show");
+    }
+);
+document.getElementById("closePopup4").addEventListener("click",
+    function () {
+        myPopup4.classList.remove(
+            "show"
+        );
+    }
+);
+window.addEventListener("click",
+    function (event) {
+        if (event.target == myPopup4) {
+            myPopup4.classList.remove(
+                "show"
+            );
+        }
+    }
+);

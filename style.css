@@ -19,6 +19,7 @@
 }
 .textContainer{
     width: 95vw;
+    margin-left: 5%;
 
 }
 .slides{
@@ -80,6 +81,8 @@
 .popup-text{
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 15px;
+    text-align: center;
     color:black;
 }
 .popupImg{
